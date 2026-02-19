@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem "sinatra", "~> 4.2.1"
+gem "sinatra-contrib", "~> 4.2.1" # cross_origin
+gem "sqlite3", "~> 1.5"            # utveckling
+gem "pg", "~> 1.5"                 # produktion om PostgreSQL
+gem "bcrypt", "~> 3.1"             # lösenord
+gem "stripe", "~> 5.0"             # betalningar
